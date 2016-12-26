@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#369"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.assignment_preference.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:textColorHint="#f00"
+        android:textStyle="italic"
+        android:hint="Enter your name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:textStyle="italic"
+        android:textColorHint="#f00"
+        android:hint="Enter your subject"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et3"
+        android:textStyle="italic"
+        android:textColorHint="#f00"
+        android:hint="Enter your email"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:textStyle="bold"
+        android:textColor="#d916"
+        android:background="#987"
+        android:text="SAVE"/>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#654"
+        android:id="@+id/spinner"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview1"
+        android:textColor="#f007"/>
+
+
+
+</LinearLayout>
